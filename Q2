@@ -1,0 +1,25 @@
+/*
+  Q2: Write a C++ script that performs the following task:
+
+  Write a program that prompts the user to input two integers and outputs the largest.
+*/
+
+
+
+
+
+    void Q2() {
+
+  int a = 26;
+  int b = 44;
+
+  std::cout << "First number = " << a << std::endl;
+  std::cout << "Second number = " << b << std::endl;
+
+  if (a > b) {
+    std::cout << "Largest number = " << a << std::endl;
+  }
+  else {
+    std::cout << "Largest number = " << b << std::endl;
+  }
+}
