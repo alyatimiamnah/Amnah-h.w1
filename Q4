@@ -1,0 +1,26 @@
+
+/*
+  Q4: Write a C++ program to print the numbers from 1 to 10 using a for and while loop.
+*/
+
+
+void Q4() {
+
+  int i;
+
+  std::cout << "Using for loop:" << std::endl;
+
+  for (i = 1; i <= 10; i++) {
+    std::cout << i << std::endl;
+  }
+
+
+  std::cout << "Using while loop:" << std::endl;
+
+  i = 1;
+
+  while (i <= 10) {
+    std::cout << i << std::endl;
+    i++;
+  }
+}
